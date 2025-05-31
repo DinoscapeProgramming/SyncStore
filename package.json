@@ -1,5 +1,5 @@
 {
-  "name": "syncstore",
+  "name": "syncstore.json",
   "version": "1.0.0",
   "description": "A lightweight, auto-saving JSON store using Proxy in Node.js.",
   "main": "index.js",
