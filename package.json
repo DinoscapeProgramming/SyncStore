@@ -1,6 +1,6 @@
 {
   "name": "syncstore.json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A lightweight, auto-saving JSON store using Proxy in Node.js.",
   "main": "index.js",
   "type": "commonjs",
@@ -18,12 +18,13 @@
     "lightweight",
     "file-based-db"
   ],
-  "author": "Your Name",
+  "author": "DinoscapeProgramming",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/DinoscapeProgramming/SyncStore.git"
   },
+  "homepage": "https://github.com/DinoscapeProgramming/SyncStore#readme",
   "publishConfig": {
     "access": "public"
   }
