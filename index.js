@@ -66,7 +66,9 @@ class Database {
               "unshift",
               "splice",
               "sort",
-              "reverse"
+              "reverse",
+              "copyWithin",
+              "fill"
             ].includes(property)
           ) {
             return (...argumentsList) => {
