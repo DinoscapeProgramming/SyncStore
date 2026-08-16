@@ -17,6 +17,11 @@ class Database {
       return JSON.parse(rawData);
     } catch (error) {
       if (error.code === "ENOENT") {
+        fs.mkdirSync(
+          path.dirname(this._filePath),
+          { recursive: true }
+        );
+
         fs.writeFileSync(
           this._filePath,
           JSON.stringify(this._defaultValue, null, 2),
